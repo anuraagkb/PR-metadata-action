@@ -171,9 +171,6 @@ const main = async () => {
             if (usercomments) {
                 script = script.concat(' -usercomments ' + '"' + usercomments + '"')
             }
-            if (protocolinput) {
-                script = script.concat(' -protocolinput ' + '"' + protocolinput + '"')
-            }
             if (exportreport) {
                 script = script.concat(' -exportReport ' + '"' + exportreport + '"')
             }
