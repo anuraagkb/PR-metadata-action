@@ -1,7 +1,17 @@
 name: PR metadata annotation
 
 on: 
-  workflow_dispatch
+  workflow_dispatch:
+    inputs:
+      workspace:
+        description: 'Workspace'
+        required: true
+      project:
+        description: 'Project'
+        required: true
+      suite:
+        description: 'Test Suite Name'
+        required: true
 
 jobs:
 
@@ -12,7 +22,6 @@ jobs:
       - name: Annotate PR
         uses: anuraagkb/PR-metadata-action@main
         with:
-          owner: ${{ github.repository_owner }}
-          repo: ${{ github.event.repository.name }}
-          pr_number: ${{ github.event.number }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+          workspace: '${{ github.event.inputs.workspace }}'
+          project: '${{ github.event.inputs.project }}'
+          suite: '${{ github.event.inputs.suite }}'
