@@ -9186,9 +9186,6 @@ const main = async () => {
             if (exportreport) {
                 script = script.concat(' -exportReport ' + '"' + exportreport + '"')
             }
-            if (imports) {
-                script = script.concat(' -import ' + '"' + imports + '"')
-            }
             if (exportstatsformat) {
                 script = script.concat(' -exportstatsformat ' + '"' + exportstatsformat + '"')
             }
