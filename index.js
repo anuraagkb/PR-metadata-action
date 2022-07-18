@@ -25,6 +25,25 @@ const main = async () => {
         const exportreport = core.getInput('exportreport', false);
         const multipleValues = core.getInput('multipleValues', { required: false });
 
+        const d = core.getInput('d', { required: false });
+        const w = core.getInput('w', { required: false });
+        const g = core.getInput('g', { required: false });
+        const y = core.getInput('y', { required: false });
+	    const k = core.getInput('k', { required: false });
+        const n = core.getInput('n', { required: false });
+        const e = core.getInput('e', { required: false });
+        const m = core.getInput('m', { required: false });
+        const q = core.getInput('q', { required: false });
+
+		console.log(d);
+		console.log(w);
+		console.log(g);
+		console.log(y);
+		console.log(k);
+		console.log(n);
+		console.log(e);
+		console.log(m);
+
         var exportstats;
         var exportstatshtml;
         var exportstatsformat;
