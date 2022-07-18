@@ -1,8 +1,9 @@
 name: PR metadata annotation
 
-on: 
-  pull_request:
-    types: [opened, reopened, synchronize]       
+on:
+  workflow_dispatch
+  #pull_request:
+    #types: [opened, reopened, synchronize]       
 jobs:
 
   annotate-pr:
