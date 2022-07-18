@@ -11,31 +11,7 @@ on:
         required: true
       suite:
         description: 'Test Suite Name'
-        required: true
-      a:
-        description: 'Test Suite Name'
-        required: true        
-      b:
-        description: 'Test Suite Name'
-        required: true   
-      c:
-        description: 'Test Suite Name'
-        required: true   
-      d:
-        description: 'Test Suite Name'
-        required: true   
-      e:
-        description: 'Test Suite Name'
-        required: true   
-      f:
-        description: 'Test Suite Name'
-        required: true   
-      g:
-        description: 'Test Suite Name'
-        required: true   
-      h:
-        description: 'Test Suite Name'
-        required: true           
+        required: true          
 jobs:
 
   annotate-pr:
@@ -45,6 +21,6 @@ jobs:
       - name: Annotate PR
         uses: anuraagkb/PR-metadata-action@main
         with:
-          workspace: '${{ github.event.inputs.workspace }}'
-          project: '${{ github.event.inputs.project }}'
-          suite: '${{ github.event.inputs.suite }}'
+          workspace: D:\HCL\hclonetest\workspace
+          project: PT1
+          suite: Test1
