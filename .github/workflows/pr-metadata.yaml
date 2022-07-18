@@ -1,17 +1,7 @@
 name: PR metadata annotation
 
 on: 
-  workflow_dispatch:
-    inputs:
-      workspace:
-        description: 'Workspace'
-        required: true
-      project:
-        description: 'Project'
-        required: true
-      suite:
-        description: 'Test Suite Name'
-        required: true          
+  workflow_dispatch         
 jobs:
 
   annotate-pr:
