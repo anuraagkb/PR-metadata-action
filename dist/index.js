@@ -9037,24 +9037,25 @@ const main = async () => {
         const exportreport = core.getInput('exportreport', false);
         const multipleValues = core.getInput('multipleValues', { required: false });
 
-        const d = core.getInput('d', { required: false });
-        const w = core.getInput('w', { required: false });
-        const g = core.getInput('g', { required: false });
-        const y = core.getInput('y', { required: false });
-	    const k = core.getInput('k', { required: false });
-        const n = core.getInput('n', { required: false });
-        const e = core.getInput('e', { required: false });
-        const m = core.getInput('m', { required: false });
-        const q = core.getInput('q', { required: false });
+        const input4 = core.getInput('input4', { required: false });
+        const input5 = core.getInput('input5', { required: false });
+        const input6 = core.getInput('input6', { required: false });
+        const input7 = core.getInput('input7', { required: false });
+	    const input8 = core.getInput('input8', { required: false });
+        const input9 = core.getInput('input9', { required: false });
+        const input10 = core.getInput('input10', { required: false });
+        const input11 = core.getInput('input11', { required: false });
+        const input12 = core.getInput('input12', { required: false });
 
-		console.log(d);
-		console.log(w);
-		console.log(g);
-		console.log(y);
-		console.log(k);
-		console.log(n);
-		console.log(e);
-		console.log(m);
+		console.log("input4: "+ input4);
+		console.log(input5);
+		console.log(input6);
+		console.log(input7);
+		console.log(input8);
+		console.log(input9);
+		console.log(input10);
+		console.log(input11);
+		console.log("input12 "+ input12);
 
         var exportstats;
         var exportstatshtml;
