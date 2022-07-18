@@ -15,12 +15,12 @@ jobs:
           workspace: D:\HCL\hclonetest\workspace
           project: PT1
           suite: Test1
-          d: D:\HCL\hclonetest\workspace
-          e: PT1
-          w: Test1
-          g: D:\HCL\hclonetest\workspace
-          y: PT1
-          k: Test1
-          n: D:\HCL\hclonetest\workspace
-          m: PT1
-          q: Test1          
+          input4: D:\HCL\hclonetest\workspace
+          input5: PT1
+          input6: Test1
+          input7: D:\HCL\hclonetest\workspace
+          input8: PT1
+          input9: Test1
+          input10: D:\HCL\hclonetest\workspace
+          input11: PT1
+          input12: Test1          
