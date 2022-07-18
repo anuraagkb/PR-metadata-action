@@ -12,7 +12,30 @@ on:
       suite:
         description: 'Test Suite Name'
         required: true
-
+      a:
+        description: 'Test Suite Name'
+        required: true        
+      b:
+        description: 'Test Suite Name'
+        required: true   
+      c:
+        description: 'Test Suite Name'
+        required: true   
+      d:
+        description: 'Test Suite Name'
+        required: true   
+      e:
+        description: 'Test Suite Name'
+        required: true   
+      f:
+        description: 'Test Suite Name'
+        required: true   
+      g:
+        description: 'Test Suite Name'
+        required: true   
+      h:
+        description: 'Test Suite Name'
+        required: true           
 jobs:
 
   annotate-pr:
