@@ -14,3 +14,12 @@ jobs:
           workspace: D:\HCL\hclonetest\workspace
           project: PT1
           suite: Test1
+          d: D:\HCL\hclonetest\workspace
+          e: PT1
+          w: Test1
+          g: D:\HCL\hclonetest\workspace
+          y: PT1
+          k: Test1
+          n: D:\HCL\hclonetest\workspace
+          m: PT1
+          q: Test1          
