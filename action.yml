@@ -7,6 +7,36 @@ inputs:
   project:
     description: 'The name of the repository'
     required: true
+  suite:
+    description: 'The name of the repository'
+    required: true
+  input4:
+    description: 'The owner of the repository'
+    required: true
+  input5:
+    description: 'The name of the repository'
+    required: true
+  input6:
+    description: 'The name of the repository'
+    required: true
+  input7:
+    description: 'The owner of the repository'
+    required: true
+  input8:
+    description: 'The name of the repository'
+    required: true
+  input9:
+    description: 'The name of the repository'
+    required: true
+  input10:
+    description: 'The owner of the repository'
+    required: true
+  input11:
+    description: 'The name of the repository'
+    required: true
+  input12:
+    description: 'The name of the repository'
+    required: true
 runs:
   using: 'node16'
   main: 'dist/index.js'
